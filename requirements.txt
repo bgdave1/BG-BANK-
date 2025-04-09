@@ -7,4 +7,5 @@ passlib[bcrypt]
 python-jose[cryptography]
 psycopg2-binary
 alembic
-python-multipart
+python-multipar
+gunicorn
