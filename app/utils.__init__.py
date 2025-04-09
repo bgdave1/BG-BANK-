@@ -2,9 +2,9 @@ from datetime import datetime, timedelta
 from jose import JWTError, jwt
 
 # SECRET_KEY and ALGORITHM should match your .env or environment config
-SECRET_KEY = "your-secret-key"  # replace with your actual secret key or load from .env
+SECRET_KEY = "Eskeleme1@"  # replace with your actual secret key or load from .env
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
+ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
 
 def create_access_token(data: dict, expires_delta: timedelta = None):
