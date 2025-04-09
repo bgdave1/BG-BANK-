@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 from datetime import timedelta
 
-from app import models, schemas
+from .. import models, schemas
 from app.database import get_db
 from app.utils import create_access_token
 
