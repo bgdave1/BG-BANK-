@@ -1,16 +1,11 @@
 services:
   - type: web
-    name: bgdave1
+    name: BG BANK-api
     env: python
-    plan: free
     buildCommand: "pip install -r requirements.txt"
     startCommand: "./start.sh"
-    runtime: python
-    region: oregon
-    branch: main
-    repo: https://github.com/bgdave1/BG-BANK-
     envVars:
-      - key: SECRET_KEY
-        sync: false
       - key: DATABASE_URL
-        sync: false
+        value: postgresql://bgdave1:Eskeleme1@BG-BANK.render.com:5432/bgdave1
+      - key: SECRET_KEY
+        value: Eskeleme1@
