@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: bg-bank-backend
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "./start.sh"
+    runtime: python
+    region: oregon
+    branch: main
+    repo: https://github.com/your-username/BG-BANK
+    envVars:
+      - key: SECRET_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false
