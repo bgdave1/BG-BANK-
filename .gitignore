@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+ENV/
+*.env
+
+# Virtual environment
+*.egg-info/
+.eggs/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.cache
+coverage.*
+htmlcov/
+
+# VSCode and other editors
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Log files
+*.log
+
+# Docker
+*.pid
+*.db
+
+# Start script
+start.sh
+
+# Don't ignore if tracked
+!start.sh
