@@ -8,7 +8,7 @@ services:
     runtime: python
     region: oregon
     branch: main
-    repo: https://github.com/bgdave1/BG-BANK
+    repo: https://github.com/bgdave1/BG-BANK-
     envVars:
       - key: SECRET_KEY
         sync: false
